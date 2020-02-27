@@ -11,7 +11,7 @@ students = []
 num_students = 23
 # Create a list of AWS username numbers
 for i in range(1, num_students+1):
-    students.append(str(i))
+    students.append("mtech{}".format(str(i)))
 
 # Seconds since epoch as the seed.
 # This will inject a new random seed every second.
